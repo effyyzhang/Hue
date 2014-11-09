@@ -58,7 +58,7 @@
         // turn on lights
         if( intent === "turn_on_the_light"){
           console.log("turning lights on!");
-          my_hue.turnOn([1,2]);
+          my_hue.turnOff([1,2]);
         }else{}
       };
       mic.onerror = function (err) {
